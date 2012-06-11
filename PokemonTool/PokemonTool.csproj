@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42BB006D-8869-43CD-9967-B16AEAE20862}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PokemonTool</RootNamespace>
+    <AssemblyName>PokemonTool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GuiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="item\Item.cs" />
+    <Compile Include="item\LightBall.cs" />
+    <Compile Include="pokemon\Garchomp.cs" />
+    <Compile Include="pokemon\Lucario.cs" />
+    <Compile Include="pokemon\Pikachu.cs" />
+    <Compile Include="pokemon\Pokemon.cs" />
+    <Compile Include="pokemon\PokemonList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="skill\Skill.cs" />
+    <Compile Include="skill\Thunderbolt.cs" />
+    <Compile Include="type\Bug.cs" />
+    <Compile Include="type\Dark.cs" />
+    <Compile Include="type\Dragon.cs" />
+    <Compile Include="type\Electric.cs" />
+    <Compile Include="type\Fighting.cs" />
+    <Compile Include="type\Fire.cs" />
+    <Compile Include="type\Flying.cs" />
+    <Compile Include="type\Ghost.cs" />
+    <Compile Include="type\Grass.cs" />
+    <Compile Include="type\Ground.cs" />
+    <Compile Include="type\Ice.cs" />
+    <Compile Include="type\IType.cs" />
+    <Compile Include="type\Normal.cs" />
+    <Compile Include="type\Poison.cs" />
+    <Compile Include="type\Psychic.cs" />
+    <Compile Include="type\Rock.cs" />
+    <Compile Include="type\Steel.cs" />
+    <Compile Include="type\Void.cs" />
+    <Compile Include="type\Water.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
