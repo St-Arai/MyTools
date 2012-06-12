@@ -18,7 +18,7 @@ namespace PokemonTool.pokemon {
 			get { return new Steel(); }
 		}
 
-		public override IEnumerable<int> BaseStatus {
+		public override IList<int> BaseStatus {
 			get { return _baseArray; }
 		}
 

@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="calculation\DamageCalculator.cs" />
+    <Compile Include="calculation\StatusCalculator.cs" />
     <Compile Include="GuiForm.cs">
       <SubType>Form</SubType>
     </Compile>
