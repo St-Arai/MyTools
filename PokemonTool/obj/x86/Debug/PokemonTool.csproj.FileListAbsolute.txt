@@ -1,0 +1,10 @@
+C:\Projects\PokemonTools\PokemonTool\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\PokemonTools\PokemonTool\bin\Debug\PokemonTool.exe
+C:\Projects\PokemonTools\PokemonTool\bin\Debug\PokemonTool.pdb
+C:\Projects\PokemonTools\PokemonTool\obj\x86\Debug\PokemonTool.exe
+C:\Projects\PokemonTools\PokemonTool\obj\x86\Debug\PokemonTool.pdb
+C:\Projects\MyTools\PokemonTool\obj\x86\Debug\PokemonTool.exe
+C:\Projects\MyTools\PokemonTool\obj\x86\Debug\PokemonTool.pdb
+C:\Projects\MyTools\PokemonTool\bin\Debug\PokemonTool.exe
+C:\Projects\MyTools\PokemonTool\bin\Debug\PokemonTool.pdb
+C:\Projects\MyTools\PokemonTool\obj\x86\Debug\ResolveAssemblyReference.cache
